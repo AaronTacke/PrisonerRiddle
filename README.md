@@ -17,7 +17,7 @@ plan. What plan should they agree on, so that eventually, someone will make a co
 
 Here the different solutions that I tested:
 
-### The right solution: [MasterSlave](./MasterSlavePrisoner.java)
+### The right solution: [MasterSlave](./src/MasterSlavePrisoner.java)
 
 All slaves switch the light from off to on, if they have never done that before.
 
@@ -25,7 +25,7 @@ The master switches the light off and counts until he finds it turned on for the
 
 **This takes an average of 10416 days until the prisoners escape.**
 
-### The complex solution: [CorrectDay](./CorrectDayPrisoner.java)
+### The complex solution: [CorrectDay](./src/CorrectDayPrisoner.java)
 
 If the light is on on day x, this means that prisoners {0, ..., x mod 100} visited the room.
 
@@ -36,7 +36,7 @@ on all days (mod 100) before.
 
 **This takes an average of 6478764 days until the prisoners escape.**
 
-### The best solution: [MachineLearning](./MachineLearningPrisoner.java)
+### The best solution: [MachineLearning](./src/MachineLearningPrisoner.java)
 
 Based on experience, all prisoners visited the room after 1000 days (with 99.6% accuracy).
 
